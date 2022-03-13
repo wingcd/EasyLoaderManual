@@ -1,0 +1,116 @@
+\hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+ICacher Interface Reference}
+\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher}\index{Wing.Tools.EaseLoader.ICacher@{Wing.Tools.EaseLoader.ICacher}}
+Inheritance diagram for Wing.\+Tools.\+Ease\+Loader.\+ICacher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a4b3699ead7e5b6afc2b6d3b87410dded}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a4b3699ead7e5b6afc2b6d3b87410dded}} 
+ECache\+Type {\bfseries Get\+Cacher\+Type} ()
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a156c5cf4f75efd0a07a09dd6e1d6b03c}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a156c5cf4f75efd0a07a09dd6e1d6b03c}} 
+bool {\bfseries Has\+Key} (string key)
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a5d6b4e3e5cf53865028dd72782b52c31}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a5d6b4e3e5cf53865028dd72782b52c31}} 
+bool {\bfseries Is\+In\+Time} (string key)
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a96e82a45db48687bfe22b138a387a66c}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a96e82a45db48687bfe22b138a387a66c}} 
+void {\bfseries Update} ()
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_ab32ff50d3e52eaf0ccc3df16f197cae0}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_ab32ff50d3e52eaf0ccc3df16f197cae0}} 
+void {\bfseries Cache} (string key, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} data, bool overwrite, string save\+As=null)
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a5a9a471a2cea18ac5da4bdf998d451df}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a5a9a471a2cea18ac5da4bdf998d451df}} 
+void {\bfseries Get} (string key, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a46c383e6c4c8ecf614bc4dca89a939cf}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a46c383e6c4c8ecf614bc4dca89a939cf}} 
+void {\bfseries Remove} (string key)
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a6e09c47d63c894a88d8203758597c972}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a6e09c47d63c894a88d8203758597c972}} 
+void {\bfseries Remove\+All} ()
+\item 
+void \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a1e4b40746333884844e51659d1b14ae2}{Collect}} (bool all=false, bool check\+Cache\+Size=true, Date\+Time? before=null)
+\begin{DoxyCompactList}\small\item\em collect the files out of dates \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_ad2a37f775254f10704551f2ec982e8aa}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_ad2a37f775254f10704551f2ec982e8aa}} 
+long {\bfseries Get\+Total\+Cache\+Size} ()
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_afc368f0631eeb3efa6b0d7bea8b2ee41}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_afc368f0631eeb3efa6b0d7bea8b2ee41}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} {\bfseries Get\+Sync} (string key)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a22808da94a323b9b72c305156123267e}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a22808da94a323b9b72c305156123267e}} 
+int {\bfseries prority}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a7f078b1dbdb27e652d81f17d352d7c2b}{auto\+GCTime}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em in seconds，-\/1(lower than 0) means not auto gc,0 means gc per frame \end{DoxyCompactList}\item 
+long \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a25ac131229ba9863bc369ada7920974b}{max\+Cache\+Size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em bytes size in memory,shoud stagger the disk gc time，-\/1(lower than 0) means size not limit \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a1e4b40746333884844e51659d1b14ae2}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a1e4b40746333884844e51659d1b14ae2}} 
+\index{Wing.Tools.EaseLoader.ICacher@{Wing.Tools.EaseLoader.ICacher}!Collect@{Collect}}
+\index{Collect@{Collect}!Wing.Tools.EaseLoader.ICacher@{Wing.Tools.EaseLoader.ICacher}}
+\doxysubsubsection{\texorpdfstring{Collect()}{Collect()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+ICacher.\+Collect (\begin{DoxyParamCaption}\item[{bool}]{all = {\ttfamily false},  }\item[{bool}]{check\+Cache\+Size = {\ttfamily true},  }\item[{Date\+Time?}]{before = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+collect the files out of dates 
+
+
+\begin{DoxyParams}{Parameters}
+{\em all} & delete all unlocked cached files \\
+\hline
+{\em check\+Cache\+Size} & delete files by check total size\\
+\hline
+{\em before} & delete cache data before this time,deault is null and not check expires time\\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_disk_cacher_a113af2ef8656bd6b444093e1f04d01a6}{Wing.\+Tools.\+Ease\+Loader.\+Disk\+Cacher}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_memory_cacher_a1f4d8fe5130579094333a6355017bf65}{Wing.\+Tools.\+Ease\+Loader.\+Memory\+Cacher}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a7f078b1dbdb27e652d81f17d352d7c2b}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a7f078b1dbdb27e652d81f17d352d7c2b}} 
+\index{Wing.Tools.EaseLoader.ICacher@{Wing.Tools.EaseLoader.ICacher}!autoGCTime@{autoGCTime}}
+\index{autoGCTime@{autoGCTime}!Wing.Tools.EaseLoader.ICacher@{Wing.Tools.EaseLoader.ICacher}}
+\doxysubsubsection{\texorpdfstring{autoGCTime}{autoGCTime}}
+{\footnotesize\ttfamily float Wing.\+Tools.\+Ease\+Loader.\+ICacher.\+auto\+GCTime\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+in seconds，-\/1(lower than 0) means not auto gc,0 means gc per frame 
+
+
+
+Implemented in \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_disk_cacher_a33290737b0d1f22e01a649ee641733f9}{Wing.\+Tools.\+Ease\+Loader.\+Disk\+Cacher}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_memory_cacher_a1e7c5e7a80fae7fc4d1c4dee42edd373}{Wing.\+Tools.\+Ease\+Loader.\+Memory\+Cacher}}.
+
+\mbox{\Hypertarget{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a25ac131229ba9863bc369ada7920974b}\label{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher_a25ac131229ba9863bc369ada7920974b}} 
+\index{Wing.Tools.EaseLoader.ICacher@{Wing.Tools.EaseLoader.ICacher}!maxCacheSize@{maxCacheSize}}
+\index{maxCacheSize@{maxCacheSize}!Wing.Tools.EaseLoader.ICacher@{Wing.Tools.EaseLoader.ICacher}}
+\doxysubsubsection{\texorpdfstring{maxCacheSize}{maxCacheSize}}
+{\footnotesize\ttfamily long Wing.\+Tools.\+Ease\+Loader.\+ICacher.\+max\+Cache\+Size\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+bytes size in memory,shoud stagger the disk gc time，-\/1(lower than 0) means size not limit 
+
+
+
+Implemented in \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_disk_cacher_ab061312173c85a9b9ca112c7752ffa83}{Wing.\+Tools.\+Ease\+Loader.\+Disk\+Cacher}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_memory_cacher_af78f99005f04386626e3b5be9a00f01e}{Wing.\+Tools.\+Ease\+Loader.\+Memory\+Cacher}}.
+
+
+
+The documentation for this interface was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/\+Cacher/ICacher.\+cs\item 
+Ease\+Loader/\+Scripts/\+Sync/\+Cacher/ICacher.\+cs\end{DoxyCompactItemize}

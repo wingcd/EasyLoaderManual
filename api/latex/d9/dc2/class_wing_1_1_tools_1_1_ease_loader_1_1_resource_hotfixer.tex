@@ -1,0 +1,368 @@
+\hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer Class Reference}
+\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+Inheritance diagram for Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d9/dc2/class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_1_1_asset_file_item}{Asset\+File\+Item}}
+\item 
+class \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_1_1_hotfix_result}{Hotfix\+Result}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}{EHotfix\+Status}} \{ \newline
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a6adf97f83acf6453d4a6a4b1070f3754}{None}}
+, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a7274d2ef31008d747a8d0570ed289436}{Check\+Persistent}}
+, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a211a5d341c80f67cd04e81fdbbc57614}{Load\+Local\+Version}}
+, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971ad5b6078b3e9bab7029d052fab8514d55}{Load\+Local\+File\+List}}
+, \newline
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3887143153c903d06dd763f769f13a19}{Load\+Remote\+Version}}
+, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3dfe9a1429f5a5b5e8834d9709a33d82}{Load\+Resource\+From\+Streaming}}
+, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a7c366f773222b86c06c351a869eb6d86}{Load\+Remote\+File\+List}}
+, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3a831ac3510fc6e76ca7013a9d106349}{Load\+Resources\+From\+Remote}}
+, \newline
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971abe180bf1871bfe5bff7cfa9ae082b8a6}{Rename\+Files}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+delegate string \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a2fd9e2c2fb23b5c9a97d603f5708adf3}{Url\+Redirect\+Handler}} (bool remote, string file)
+\item 
+delegate bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9edf4c7a77644c16112cc054d35db24c}{Need\+Update\+App\+Handler}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} local\+Version, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} remote\+Version, Action$<$ bool $>$ callback)
+\item 
+delegate bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aae46ea916058f37c553639f9100f2b14}{Need\+Update\+Reources\+Handler}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} local\+Version, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} remote\+Version)
+\item 
+delegate bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9389414c2ff925dd363757aaf6311f92}{Status\+Changed\+Handler}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}{EHotfix\+Status}} status, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} remote\+Version)
+\item 
+delegate bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad7ace827041081fafcfaa36faf4f94e8}{Delete\+File\+Handler}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} new\+Version, string path)
+\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ace83f03d098d4f912eb9668b0313323d}{Hotfix}} (string removet\+Version\+Url, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_1_1_hotfix_result}{Hotfix\+Result}} $>$ done, string cdn\+Base\+Url=null)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a00fee7cf9c3920c18e8a522fb94a3cb8}{Compare\+App\+Version}} (string cur\+Version, string new\+Version)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Dictionary$<$ string, object $>$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ae72b604b6c40f7ff8aa11b38e9416db1}{request\+Headers}} = null
+\item 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9edf4c7a77644c16112cc054d35db24c}{Need\+Update\+App\+Handler}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_afa5237fca51003bfd1643345c0414e7e}{need\+Update\+App\+Handler}}
+\item 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aae46ea916058f37c553639f9100f2b14}{Need\+Update\+Reources\+Handler}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad08bec959bd43b91f371a5a4e26d0be7}{need\+Update\+Resource\+Handler}}
+\item 
+Action$<$ string $>$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ac99c99e26e53b0a8fd6f7e530f2ce7ef}{on\+Save\+File}}
+\item 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a2fd9e2c2fb23b5c9a97d603f5708adf3}{Url\+Redirect\+Handler}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_abeaf307e37872a9458ab54884b329d02}{url\+Redirect\+Handler}}
+\begin{DoxyCompactList}\small\item\em url redirect handler \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad7ace827041081fafcfaa36faf4f94e8}{Delete\+File\+Handler}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_af4f0db79d431941cdd3563b6fc836c7c}{on\+Delete\+File}}
+\begin{DoxyCompactList}\small\item\em when return false stop delete old file \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aeca891f5d7ce6a995b094a716fe08587}{has\+Copy\+In\+Streaming\+Path}} = true
+\begin{DoxyCompactList}\small\item\em if true, after install app will copy files from streaming path to persistent data path \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a4c13de7c59874cb710a2f2fa7ef2ce0f}{check\+File\+By\+Runtime\+MD5}} = false
+\begin{DoxyCompactList}\small\item\em if true, will generate file\textquotesingle{}s md5, and need more time \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ae697a0298043114ef2985b222c524f81}{timeout}} = -\/1
+\item 
+float \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aba352327996d79d096c3ec586364576b}{retry}} = 2
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a5eea9b7eeea05564b71259013241b5c7}{Need\+Update\+App}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} cur\+Version, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} new\+Version, Action$<$ bool $>$ callback)
+\item 
+virtual bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a399b91559370f355babcb75f1b408adf}{Need\+Update\+Resource}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} cur\+Version, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}} new\+Version)
+\begin{DoxyCompactList}\small\item\em default app version format like 1.\+0.\+0.\+0/1.0.\+0/1.0/1 resource version is a integer number \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad1dc9c24dc2bc2baac43acfc117bf960}{need\+Load\+Bytes}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a90495b433c003ca2f3b757e882283341}{had\+Loaded\+Bytes}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+string \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ade0455a4e3ca5dc9b9d57e5ad2164656}{current\+Loaded\+File}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9389414c2ff925dd363757aaf6311f92}{Status\+Changed\+Handler}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a8565e97ee938a9ac2059631fea4accf1}{on\+Status\+Changed}}
+\begin{DoxyCompactList}\small\item\em if return false, will cancel version check remote version will be not none after Load\+Remote\+Version status \end{DoxyCompactList}\item 
+Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}{EHotfix\+Status}}, float $>$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a77a379f870fefe03eda83bb56fe5d4f2}{on\+Status\+Progress}}
+\item 
+Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}{EHotfix\+Status}}, float $>$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9ade882e5961eca89acc97df3d4a9306}{on\+Hotfix\+Progress}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Enumeration Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!EHotfixStatus@{EHotfixStatus}}
+\index{EHotfixStatus@{EHotfixStatus}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{EHotfixStatus}{EHotfixStatus}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+EHotfix\+Status}}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{None@{None}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!None@{None}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a6adf97f83acf6453d4a6a4b1070f3754}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a6adf97f83acf6453d4a6a4b1070f3754}} 
+None&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{CheckPersistent@{CheckPersistent}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!CheckPersistent@{CheckPersistent}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a7274d2ef31008d747a8d0570ed289436}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a7274d2ef31008d747a8d0570ed289436}} 
+Check\+Persistent&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LoadLocalVersion@{LoadLocalVersion}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!LoadLocalVersion@{LoadLocalVersion}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a211a5d341c80f67cd04e81fdbbc57614}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a211a5d341c80f67cd04e81fdbbc57614}} 
+Load\+Local\+Version&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LoadLocalFileList@{LoadLocalFileList}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!LoadLocalFileList@{LoadLocalFileList}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971ad5b6078b3e9bab7029d052fab8514d55}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971ad5b6078b3e9bab7029d052fab8514d55}} 
+Load\+Local\+File\+List&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LoadRemoteVersion@{LoadRemoteVersion}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!LoadRemoteVersion@{LoadRemoteVersion}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3887143153c903d06dd763f769f13a19}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3887143153c903d06dd763f769f13a19}} 
+Load\+Remote\+Version&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LoadResourceFromStreaming@{LoadResourceFromStreaming}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!LoadResourceFromStreaming@{LoadResourceFromStreaming}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3dfe9a1429f5a5b5e8834d9709a33d82}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3dfe9a1429f5a5b5e8834d9709a33d82}} 
+Load\+Resource\+From\+Streaming&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LoadRemoteFileList@{LoadRemoteFileList}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!LoadRemoteFileList@{LoadRemoteFileList}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a7c366f773222b86c06c351a869eb6d86}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a7c366f773222b86c06c351a869eb6d86}} 
+Load\+Remote\+File\+List&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LoadResourcesFromRemote@{LoadResourcesFromRemote}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!LoadResourcesFromRemote@{LoadResourcesFromRemote}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3a831ac3510fc6e76ca7013a9d106349}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971a3a831ac3510fc6e76ca7013a9d106349}} 
+Load\+Resources\+From\+Remote&\\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{RenameFiles@{RenameFiles}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!RenameFiles@{RenameFiles}}}\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971abe180bf1871bfe5bff7cfa9ae082b8a6}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971abe180bf1871bfe5bff7cfa9ae082b8a6}} 
+Rename\+Files&\\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a00fee7cf9c3920c18e8a522fb94a3cb8}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a00fee7cf9c3920c18e8a522fb94a3cb8}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!CompareAppVersion@{CompareAppVersion}}
+\index{CompareAppVersion@{CompareAppVersion}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{CompareAppVersion()}{CompareAppVersion()}}
+{\footnotesize\ttfamily static int Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Compare\+App\+Version (\begin{DoxyParamCaption}\item[{string}]{cur\+Version,  }\item[{string}]{new\+Version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad7ace827041081fafcfaa36faf4f94e8}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad7ace827041081fafcfaa36faf4f94e8}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!DeleteFileHandler@{DeleteFileHandler}}
+\index{DeleteFileHandler@{DeleteFileHandler}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{DeleteFileHandler()}{DeleteFileHandler()}}
+{\footnotesize\ttfamily delegate bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Delete\+File\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{new\+Version,  }\item[{string}]{path }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ace83f03d098d4f912eb9668b0313323d}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ace83f03d098d4f912eb9668b0313323d}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!Hotfix@{Hotfix}}
+\index{Hotfix@{Hotfix}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{Hotfix()}{Hotfix()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Hotfix (\begin{DoxyParamCaption}\item[{string}]{removet\+Version\+Url,  }\item[{Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_1_1_hotfix_result}{Hotfix\+Result}} $>$}]{done,  }\item[{string}]{cdn\+Base\+Url = {\ttfamily null} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a5eea9b7eeea05564b71259013241b5c7}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a5eea9b7eeea05564b71259013241b5c7}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!NeedUpdateApp@{NeedUpdateApp}}
+\index{NeedUpdateApp@{NeedUpdateApp}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{NeedUpdateApp()}{NeedUpdateApp()}}
+{\footnotesize\ttfamily virtual void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Need\+Update\+App (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{cur\+Version,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{new\+Version,  }\item[{Action$<$ bool $>$}]{callback }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+References \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info_aa729784869610e0c4034c9dce9fbc3f0}{Wing.\+Tools.\+Ease\+Loader.\+Version\+Info.\+app\+Update}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_afa5237fca51003bfd1643345c0414e7e}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+need\+Update\+App\+Handler}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9edf4c7a77644c16112cc054d35db24c}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9edf4c7a77644c16112cc054d35db24c}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!NeedUpdateAppHandler@{NeedUpdateAppHandler}}
+\index{NeedUpdateAppHandler@{NeedUpdateAppHandler}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{NeedUpdateAppHandler()}{NeedUpdateAppHandler()}}
+{\footnotesize\ttfamily delegate bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Need\+Update\+App\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{local\+Version,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{remote\+Version,  }\item[{Action$<$ bool $>$}]{callback }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aae46ea916058f37c553639f9100f2b14}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aae46ea916058f37c553639f9100f2b14}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!NeedUpdateReourcesHandler@{NeedUpdateReourcesHandler}}
+\index{NeedUpdateReourcesHandler@{NeedUpdateReourcesHandler}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{NeedUpdateReourcesHandler()}{NeedUpdateReourcesHandler()}}
+{\footnotesize\ttfamily delegate bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Need\+Update\+Reources\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{local\+Version,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{remote\+Version }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a399b91559370f355babcb75f1b408adf}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a399b91559370f355babcb75f1b408adf}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!NeedUpdateResource@{NeedUpdateResource}}
+\index{NeedUpdateResource@{NeedUpdateResource}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{NeedUpdateResource()}{NeedUpdateResource()}}
+{\footnotesize\ttfamily virtual bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Need\+Update\+Resource (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{cur\+Version,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{new\+Version }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+default app version format like 1.\+0.\+0.\+0/1.0.\+0/1.0/1 resource version is a integer number 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cur\+Version} & \\
+\hline
+{\em new\+Version} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+References \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info_aa4a2f202bea998e71ccec924a88ce729}{Wing.\+Tools.\+Ease\+Loader.\+Version\+Info.\+app\+Version}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a00fee7cf9c3920c18e8a522fb94a3cb8}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Compare\+App\+Version()}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info_a425423846d11787a3ff0b911ce69c5d3}{Wing.\+Tools.\+Ease\+Loader.\+Version\+Info.\+min\+App\+Version}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad08bec959bd43b91f371a5a4e26d0be7}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+need\+Update\+Resource\+Handler}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info_a1664820982c1370339b0b75a6748ef22}{Wing.\+Tools.\+Ease\+Loader.\+Version\+Info.\+res\+Version}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9389414c2ff925dd363757aaf6311f92}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9389414c2ff925dd363757aaf6311f92}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!StatusChangedHandler@{StatusChangedHandler}}
+\index{StatusChangedHandler@{StatusChangedHandler}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{StatusChangedHandler()}{StatusChangedHandler()}}
+{\footnotesize\ttfamily delegate bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Status\+Changed\+Handler (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}{EHotfix\+Status}}}]{status,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_version_info}{Version\+Info}}}]{remote\+Version }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a2fd9e2c2fb23b5c9a97d603f5708adf3}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a2fd9e2c2fb23b5c9a97d603f5708adf3}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!UrlRedirectHandler@{UrlRedirectHandler}}
+\index{UrlRedirectHandler@{UrlRedirectHandler}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{UrlRedirectHandler()}{UrlRedirectHandler()}}
+{\footnotesize\ttfamily delegate string Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+Url\+Redirect\+Handler (\begin{DoxyParamCaption}\item[{bool}]{remote,  }\item[{string}]{file }\end{DoxyParamCaption})}
+
+
+
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em remote} & if is remote url,which start with http/https\\
+\hline
+{\em file} & filename\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a4c13de7c59874cb710a2f2fa7ef2ce0f}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a4c13de7c59874cb710a2f2fa7ef2ce0f}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!checkFileByRuntimeMD5@{checkFileByRuntimeMD5}}
+\index{checkFileByRuntimeMD5@{checkFileByRuntimeMD5}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{checkFileByRuntimeMD5}{checkFileByRuntimeMD5}}
+{\footnotesize\ttfamily bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+check\+File\+By\+Runtime\+MD5 = false}
+
+
+
+if true, will generate file\textquotesingle{}s md5, and need more time 
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aeca891f5d7ce6a995b094a716fe08587}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aeca891f5d7ce6a995b094a716fe08587}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!hasCopyInStreamingPath@{hasCopyInStreamingPath}}
+\index{hasCopyInStreamingPath@{hasCopyInStreamingPath}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{hasCopyInStreamingPath}{hasCopyInStreamingPath}}
+{\footnotesize\ttfamily bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+has\+Copy\+In\+Streaming\+Path = true}
+
+
+
+if true, after install app will copy files from streaming path to persistent data path 
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_afa5237fca51003bfd1643345c0414e7e}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_afa5237fca51003bfd1643345c0414e7e}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!needUpdateAppHandler@{needUpdateAppHandler}}
+\index{needUpdateAppHandler@{needUpdateAppHandler}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{needUpdateAppHandler}{needUpdateAppHandler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9edf4c7a77644c16112cc054d35db24c}{Need\+Update\+App\+Handler}} Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+need\+Update\+App\+Handler}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad08bec959bd43b91f371a5a4e26d0be7}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad08bec959bd43b91f371a5a4e26d0be7}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!needUpdateResourceHandler@{needUpdateResourceHandler}}
+\index{needUpdateResourceHandler@{needUpdateResourceHandler}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{needUpdateResourceHandler}{needUpdateResourceHandler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aae46ea916058f37c553639f9100f2b14}{Need\+Update\+Reources\+Handler}} Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+need\+Update\+Resource\+Handler}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_af4f0db79d431941cdd3563b6fc836c7c}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_af4f0db79d431941cdd3563b6fc836c7c}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!onDeleteFile@{onDeleteFile}}
+\index{onDeleteFile@{onDeleteFile}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{onDeleteFile}{onDeleteFile}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad7ace827041081fafcfaa36faf4f94e8}{Delete\+File\+Handler}} Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+on\+Delete\+File}
+
+
+
+when return false stop delete old file 
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ac99c99e26e53b0a8fd6f7e530f2ce7ef}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ac99c99e26e53b0a8fd6f7e530f2ce7ef}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!onSaveFile@{onSaveFile}}
+\index{onSaveFile@{onSaveFile}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{onSaveFile}{onSaveFile}}
+{\footnotesize\ttfamily Action$<$string$>$ Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+on\+Save\+File}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ae72b604b6c40f7ff8aa11b38e9416db1}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ae72b604b6c40f7ff8aa11b38e9416db1}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!requestHeaders@{requestHeaders}}
+\index{requestHeaders@{requestHeaders}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{requestHeaders}{requestHeaders}}
+{\footnotesize\ttfamily Dictionary$<$string, object$>$ Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+request\+Headers = null}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aba352327996d79d096c3ec586364576b}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_aba352327996d79d096c3ec586364576b}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!retry@{retry}}
+\index{retry@{retry}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{retry}{retry}}
+{\footnotesize\ttfamily float Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+retry = 2}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ae697a0298043114ef2985b222c524f81}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ae697a0298043114ef2985b222c524f81}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!timeout@{timeout}}
+\index{timeout@{timeout}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{timeout}{timeout}}
+{\footnotesize\ttfamily int Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+timeout = -\/1}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_abeaf307e37872a9458ab54884b329d02}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_abeaf307e37872a9458ab54884b329d02}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!urlRedirectHandler@{urlRedirectHandler}}
+\index{urlRedirectHandler@{urlRedirectHandler}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{urlRedirectHandler}{urlRedirectHandler}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a2fd9e2c2fb23b5c9a97d603f5708adf3}{Url\+Redirect\+Handler}} Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+url\+Redirect\+Handler}
+
+
+
+url redirect handler 
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ade0455a4e3ca5dc9b9d57e5ad2164656}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ade0455a4e3ca5dc9b9d57e5ad2164656}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!currentLoadedFile@{currentLoadedFile}}
+\index{currentLoadedFile@{currentLoadedFile}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{currentLoadedFile}{currentLoadedFile}}
+{\footnotesize\ttfamily string Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+current\+Loaded\+File\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a90495b433c003ca2f3b757e882283341}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a90495b433c003ca2f3b757e882283341}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!hadLoadedBytes@{hadLoadedBytes}}
+\index{hadLoadedBytes@{hadLoadedBytes}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{hadLoadedBytes}{hadLoadedBytes}}
+{\footnotesize\ttfamily int Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+had\+Loaded\+Bytes\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad1dc9c24dc2bc2baac43acfc117bf960}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_ad1dc9c24dc2bc2baac43acfc117bf960}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!needLoadBytes@{needLoadBytes}}
+\index{needLoadBytes@{needLoadBytes}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{needLoadBytes}{needLoadBytes}}
+{\footnotesize\ttfamily int Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+need\+Load\+Bytes\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+\doxysubsection{Event Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9ade882e5961eca89acc97df3d4a9306}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9ade882e5961eca89acc97df3d4a9306}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!onHotfixProgress@{onHotfixProgress}}
+\index{onHotfixProgress@{onHotfixProgress}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{onHotfixProgress}{onHotfixProgress}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}{EHotfix\+Status}}, float$>$ Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+on\+Hotfix\+Progress}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a8565e97ee938a9ac2059631fea4accf1}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a8565e97ee938a9ac2059631fea4accf1}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!onStatusChanged@{onStatusChanged}}
+\index{onStatusChanged@{onStatusChanged}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{onStatusChanged}{onStatusChanged}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a9389414c2ff925dd363757aaf6311f92}{Status\+Changed\+Handler}} Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+on\+Status\+Changed}
+
+
+
+if return false, will cancel version check remote version will be not none after Load\+Remote\+Version status 
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a77a379f870fefe03eda83bb56fe5d4f2}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a77a379f870fefe03eda83bb56fe5d4f2}} 
+\index{Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}!onStatusProgress@{onStatusProgress}}
+\index{onStatusProgress@{onStatusProgress}!Wing.Tools.EaseLoader.ResourceHotfixer@{Wing.Tools.EaseLoader.ResourceHotfixer}}
+\doxysubsubsection{\texorpdfstring{onStatusProgress}{onStatusProgress}}
+{\footnotesize\ttfamily Action$<$\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_hotfixer_a6f9c2a1637e986be11fd0cda26768971}{EHotfix\+Status}}, float$>$ Wing.\+Tools.\+Ease\+Loader.\+Resource\+Hotfixer.\+on\+Status\+Progress}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/\mbox{\hyperlink{_resource_hotfixer_8cs}{Resource\+Hotfixer.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,166 @@
+\hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object Class Reference}
+\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+Inheritance diagram for Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{da/df9/class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a64c46e3a731d13a17ab926750f30fb8c}{Reference\+Object}} (string \+\_\+key, object \+\_\+data=null)
+\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab19df7e66da485eb62e7420eef3a4b57}{Ref}} ()
+\begin{DoxyCompactList}\small\item\em when use this data,please invoke this. this function will add refrence count. when count equal to 0,this data maybe collected. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a8742da726868b8c0a2419e632ae67810}{Refresh}} ()
+\begin{DoxyCompactList}\small\item\em just refresh hit time \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a18c13937827073da3c8ee5be9c48f1b1}{Un\+Ref}} ()
+\begin{DoxyCompactList}\small\item\em when unuse this data,please invoke this. this function will minus one time from refrence count. when count equal to 0,this data maybe collected. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab83c5beaa9faa0fd3f4a34ed52f09fa9}{Dispose}} (bool unloaded\+Loaded\+Object=false)
+\begin{DoxyCompactList}\small\item\em focus to dispose this data,maybe dispose the using data. 
+\begin{DoxyParams}{Parameters}
+{\em unloaded\+Loaded\+Object} & Determines whether the current instances of objects loaded from the Asset\+Bundle will also be unloaded.\\
+\hline
+\end{DoxyParams}
+\end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ac21567594892cc82173f901ec5f49b98}{key}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a2c306a4e8813ca25a66d9232192ea6e8}{parent}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} $>$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ae93880d7019307ef1cdd1441ca4d5605}{childrens}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+int \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a79f944cf835a6ebca08a63f6dc132394}{reference\+Count}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ad5c5eed78b09d61498f8272bd90cbf73}{used}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+float \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab8466d06bfe70e96d20721bf48510ea0}{hit\+Time}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+object \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a5b642774c679162ecf5079d2808444db}{data}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a64c46e3a731d13a17ab926750f30fb8c}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a64c46e3a731d13a17ab926750f30fb8c}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!ReferenceObject@{ReferenceObject}}
+\index{ReferenceObject@{ReferenceObject}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{ReferenceObject()}{ReferenceObject()}}
+{\footnotesize\ttfamily Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+Reference\+Object (\begin{DoxyParamCaption}\item[{string}]{\+\_\+key,  }\item[{object}]{\+\_\+data = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+References \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a5b642774c679162ecf5079d2808444db}{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+data}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ac21567594892cc82173f901ec5f49b98}{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+key}}.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab83c5beaa9faa0fd3f4a34ed52f09fa9}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab83c5beaa9faa0fd3f4a34ed52f09fa9}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily virtual void Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{unloaded\+Loaded\+Object = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+focus to dispose this data,maybe dispose the using data. 
+\begin{DoxyParams}{Parameters}
+{\em unloaded\+Loaded\+Object} & Determines whether the current instances of objects loaded from the Asset\+Bundle will also be unloaded.\\
+\hline
+\end{DoxyParams}
+
+
+
+
+References \mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_ae068123e95a169b643aa6fadc5e96b1eae8cbe8f681e78018c49cfb82158030d8}{Wing.\+Tools.\+Ease\+Loader.\+Asset\+Bundle}}, \mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_ae068123e95a169b643aa6fadc5e96b1eaa8a27cf2fdd442d8dcde6fc373d9152a}{Wing.\+Tools.\+Ease\+Loader.\+Audio\+Clip}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a5b642774c679162ecf5079d2808444db}{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+data}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab19df7e66da485eb62e7420eef3a4b57}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab19df7e66da485eb62e7420eef3a4b57}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!Ref@{Ref}}
+\index{Ref@{Ref}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{Ref()}{Ref()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+when use this data,please invoke this. this function will add refrence count. when count equal to 0,this data maybe collected. 
+
+
+
+References \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a2c306a4e8813ca25a66d9232192ea6e8}{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+parent}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab19df7e66da485eb62e7420eef3a4b57}{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+Ref()}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a8742da726868b8c0a2419e632ae67810}{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+Refresh()}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a8742da726868b8c0a2419e632ae67810}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a8742da726868b8c0a2419e632ae67810}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!Refresh@{Refresh}}
+\index{Refresh@{Refresh}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{Refresh()}{Refresh()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+Refresh (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+just refresh hit time 
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a18c13937827073da3c8ee5be9c48f1b1}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a18c13937827073da3c8ee5be9c48f1b1}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!UnRef@{UnRef}}
+\index{UnRef@{UnRef}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{UnRef()}{UnRef()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+Un\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+when unuse this data,please invoke this. this function will minus one time from refrence count. when count equal to 0,this data maybe collected. 
+
+
+
+References \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a2c306a4e8813ca25a66d9232192ea6e8}{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+parent}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a18c13937827073da3c8ee5be9c48f1b1}{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+Un\+Ref()}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ae93880d7019307ef1cdd1441ca4d5605}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ae93880d7019307ef1cdd1441ca4d5605}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!childrens@{childrens}}
+\index{childrens@{childrens}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{childrens}{childrens}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}}$>$ Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+childrens\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a5b642774c679162ecf5079d2808444db}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a5b642774c679162ecf5079d2808444db}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!data@{data}}
+\index{data@{data}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{data}{data}}
+{\footnotesize\ttfamily object Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+data\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab8466d06bfe70e96d20721bf48510ea0}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab8466d06bfe70e96d20721bf48510ea0}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!hitTime@{hitTime}}
+\index{hitTime@{hitTime}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{hitTime}{hitTime}}
+{\footnotesize\ttfamily float Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+hit\+Time\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ac21567594892cc82173f901ec5f49b98}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ac21567594892cc82173f901ec5f49b98}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!key@{key}}
+\index{key@{key}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{key}{key}}
+{\footnotesize\ttfamily string Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+key\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a2c306a4e8813ca25a66d9232192ea6e8}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a2c306a4e8813ca25a66d9232192ea6e8}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!parent@{parent}}
+\index{parent@{parent}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{parent}{parent}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+parent\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a79f944cf835a6ebca08a63f6dc132394}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a79f944cf835a6ebca08a63f6dc132394}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!referenceCount@{referenceCount}}
+\index{referenceCount@{referenceCount}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{referenceCount}{referenceCount}}
+{\footnotesize\ttfamily int Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+reference\+Count\hspace{0.3cm}{\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ad5c5eed78b09d61498f8272bd90cbf73}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ad5c5eed78b09d61498f8272bd90cbf73}} 
+\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}!used@{used}}
+\index{used@{used}!Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+\doxysubsubsection{\texorpdfstring{used}{used}}
+{\footnotesize\ttfamily bool Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object.\+used\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/\+Msic/\mbox{\hyperlink{_response_data_8cs}{Response\+Data.\+cs}}\end{DoxyCompactItemize}

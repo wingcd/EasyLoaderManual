@@ -1,0 +1,99 @@
+\hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+Loader\+Manager Class Reference}
+\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager}\index{Wing.Tools.EaseLoader.LoaderManager@{Wing.Tools.EaseLoader.LoaderManager}}
+Inheritance diagram for Wing.\+Tools.\+Ease\+Loader.\+Loader\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Cancel\+Info}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_ac4a095ca1d62ef85bdbbc11c1db8bb01}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_ac4a095ca1d62ef85bdbbc11c1db8bb01}} 
+void {\bfseries Regist} (string type, \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader}{ILoader}} loader, Type paramter\+Type)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a9d3570eabf472feaec83ffdbb8c7f801}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a9d3570eabf472feaec83ffdbb8c7f801}} 
+\mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader}{ILoader}} {\bfseries Get\+Loader} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} context)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a99901c59e2411b483b7f4102c095a6b3}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a99901c59e2411b483b7f4102c095a6b3}} 
+void {\bfseries Kill\+All} (bool trigger\+Completed=false)
+\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a8fe051ce86b5e45469304b306f7ff06f}{Kill}} (object context, bool trigger\+Completed=false)
+\begin{DoxyCompactList}\small\item\em stop load (useless in async mode) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a045e4e0f0938c0e64b4369685b715faf}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a045e4e0f0938c0e64b4369685b715faf}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} {\bfseries Create\+Context} (string url, EResource\+Type resource\+Type, Type asset\+Type=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a0dd8802a2080ab8beb76743b595ca8b1}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a0dd8802a2080ab8beb76743b595ca8b1}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} {\bfseries Load} (string url, Type asset\+Type, Load\+Progress\+Event\+Handler progress=null, Load\+Completed\+Event\+Handler completed=null, Dictionary$<$ string, object $>$ extra\+Params=null, object tag=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a6e36d857ff72d7ad06fece1dd0fc93e6}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a6e36d857ff72d7ad06fece1dd0fc93e6}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} {\bfseries Simple\+Load} (string url, EResource\+Type resource\+Type, Load\+Progress\+Event\+Handler progress=null, Load\+Completed\+Event\+Handler completed=null, ECache\+Type cache\+Type=ECache\+Type.\+None, object tag=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_ae5de802fa6274f4d25a5c7315b59b132}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_ae5de802fa6274f4d25a5c7315b59b132}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} {\bfseries Load} (string url, EResource\+Type resource\+Type, Load\+Progress\+Event\+Handler progress=null, Load\+Completed\+Event\+Handler completed=null, Dictionary$<$ string, object $>$ extra\+Params=null, object tag=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_adb8a34e14aec242ecbf03a65df541c53}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_adb8a34e14aec242ecbf03a65df541c53}} 
+bool {\bfseries Is\+Loading} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} context)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a498b2ed168c42f3a7b5d7ed1641cd2bc}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a498b2ed168c42f3a7b5d7ed1641cd2bc}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} {\bfseries Load} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} context, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a7eb9abfb5ac694fab754eaca773a999d}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a7eb9abfb5ac694fab754eaca773a999d}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}}\mbox{[}$\,$\mbox{]} {\bfseries Load} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_item}{Load\+Item}}\mbox{[}$\,$\mbox{]} reqs, Action$<$ float $>$ on\+Progress=null, Load\+Completed\+Event\+Handler on\+Item\+Completed=null, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}}\mbox{[}$\,$\mbox{]}$>$ all\+Completed=null, bool sequence=false, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a36b398f6632703e50bd8b4d1caf2276e}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a36b398f6632703e50bd8b4d1caf2276e}} 
+IEnumerator {\bfseries Load} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}}\mbox{[}$\,$\mbox{]} ctxs, Action$<$ float $>$ on\+Progress, Load\+Completed\+Event\+Handler on\+Item\+Completed=null, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}}\mbox{[}$\,$\mbox{]}$>$ all\+Completed=null, bool sequence=false)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a61bb65bb4ec29ed692b51d4b8d9cef0b}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a61bb65bb4ec29ed692b51d4b8d9cef0b}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}} {\bfseries Load\+Sync} (string url, Type asset\+Type, Dictionary$<$ string, object $>$ extra\+Params=null, object tag=null, Cancellation\+Token cancellation\+Token=default(Cancellation\+Token))
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_ae7baed8c21693dfb3ef6838652df0043}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_ae7baed8c21693dfb3ef6838652df0043}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}} {\bfseries Load\+Sync} (string url, EResource\+Type resource\+Type, Dictionary$<$ string, object $>$ extra\+Params=null, object tag=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a0295cc73ea6449749dd34b1debd2f086}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a0295cc73ea6449749dd34b1debd2f086}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}} {\bfseries Simple\+Load\+Sync} (string url, EResource\+Type resource\+Type, ECache\+Type cache\+Type=ECache\+Type.\+None, object tag=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a587b3cec052abd915040633d2c2ce84a}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a587b3cec052abd915040633d2c2ce84a}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}} {\bfseries Load\+Sync} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} context, Cancellation\+Token cancellation\+Token=default(Cancellation\+Token))
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a0582d19f5716c5cfbe2bf338e49b2e81}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a0582d19f5716c5cfbe2bf338e49b2e81}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}}\mbox{[}$\,$\mbox{]} {\bfseries Load\+Sync} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_item}{Load\+Item}}\mbox{[}$\,$\mbox{]} reqs, Action$<$ float $>$ on\+Progress=null, Load\+Completed\+Event\+Handler on\+Item\+Completed=null)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_aff0234baff7bf7139058455f348bab1e}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_aff0234baff7bf7139058455f348bab1e}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_task_limiter}{Task\+Limiter}} {\bfseries Limiter}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a8fe051ce86b5e45469304b306f7ff06f}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_manager_a8fe051ce86b5e45469304b306f7ff06f}} 
+\index{Wing.Tools.EaseLoader.LoaderManager@{Wing.Tools.EaseLoader.LoaderManager}!Kill@{Kill}}
+\index{Kill@{Kill}!Wing.Tools.EaseLoader.LoaderManager@{Wing.Tools.EaseLoader.LoaderManager}}
+\doxysubsubsection{\texorpdfstring{Kill()}{Kill()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Loader\+Manager.\+Kill (\begin{DoxyParamCaption}\item[{object}]{context,  }\item[{bool}]{trigger\+Completed = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+stop load (useless in async mode) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & \\
+\hline
+{\em trigger\+Completed} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/\+Loader/Loader\+Manager.\+cs\item 
+Ease\+Loader/\+Scripts/\+Sync/\+Loader/Loader\+Manager.\+cs\end{DoxyCompactItemize}

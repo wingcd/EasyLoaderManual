@@ -1,0 +1,152 @@
+\hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader Class Reference}
+\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader}\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+Inheritance diagram for Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.962963cm]{d8/dde/class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract string\mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_ab4f4f683ad5344c8691813e83c974c44}{Get\+Schame}} ()
+\item 
+abstract string \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a336c67f38330c88d963431f43671dc6c}{Get\+Name}} ()
+\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_afd9d733a2b0b9a4921ebcf1ffe0c8dce}{Kill}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} context, bool trigger\+Completed=false)
+\begin{DoxyCompactList}\small\item\em stop load (useless in async mode) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a83e400f346ea91a48fa99b4d2944d934}{Load}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} context)
+\item 
+virtual \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a6abb7185bdb39baf1e8d14b331313700}{Load\+Sync}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} context)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a007e2d2449ded71841e0428fb81c4926}{On\+Load}} (\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}} context)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_afa4a2c9ffea0b6f6dfc5a7a7652c38b3}{Load\+Progress\+Event\+Handler}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a40c7f6c592273cb254ee3ff5822b74ad}{on\+Progress}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_a2aef09431a1d860fb740f98eb19b50e1}{Load\+Completed\+Event\+Handler}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a250dfcc610f04aee112119ffb4887b6b}{on\+Completed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a336c67f38330c88d963431f43671dc6c}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a336c67f38330c88d963431f43671dc6c}} 
+\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}!GetName@{GetName}}
+\index{GetName@{GetName}!Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+\doxysubsubsection{\texorpdfstring{GetName()}{GetName()}}
+{\footnotesize\ttfamily abstract string Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+Get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implements \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader_a4b9793124b4c5497fb065d043c2f2a89}{Wing.\+Tools.\+Ease\+Loader.\+ILoader}}.
+
+
+
+Implemented in \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_editor_loader_a6776482ced7c1058fd1040a35eb30c63}{Wing.\+Tools.\+Ease\+Loader.\+Editor\+Loader}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_loader_a7e3cb8435a7a998873439e49f37f2710}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Loader}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_runtime_loader_a4c64487615e8d3553bee33a6bf15799e}{Wing.\+Tools.\+Ease\+Loader.\+Runtime\+Loader}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_web_loader_a0a6af9ad66ac99d7175369f52bd1a7eb}{Wing.\+Tools.\+Ease\+Loader.\+Web\+Loader}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_ab4f4f683ad5344c8691813e83c974c44}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_ab4f4f683ad5344c8691813e83c974c44}} 
+\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}!GetSchame@{GetSchame}}
+\index{GetSchame@{GetSchame}!Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+\doxysubsubsection{\texorpdfstring{GetSchame()}{GetSchame()}}
+{\footnotesize\ttfamily abstract string\mbox{[}$\,$\mbox{]} Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+Get\+Schame (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implements \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader_ae5524a242428f24ca7939e0e387bdc01}{Wing.\+Tools.\+Ease\+Loader.\+ILoader}}.
+
+
+
+Implemented in \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_editor_loader_a0425d51b489c896dce11d2218254c592}{Wing.\+Tools.\+Ease\+Loader.\+Editor\+Loader}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_loader_a0a790b260b9b6b869d722ef8b6f81d32}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Loader}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_runtime_loader_aa0b11ac143267b4db215343d383eed34}{Wing.\+Tools.\+Ease\+Loader.\+Runtime\+Loader}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_web_loader_a37a55f3a36d6985d524d99f0d9a5be01}{Wing.\+Tools.\+Ease\+Loader.\+Web\+Loader}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_afd9d733a2b0b9a4921ebcf1ffe0c8dce}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_afd9d733a2b0b9a4921ebcf1ffe0c8dce}} 
+\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}!Kill@{Kill}}
+\index{Kill@{Kill}!Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+\doxysubsubsection{\texorpdfstring{Kill()}{Kill()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+Kill (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}}}]{context,  }\item[{bool}]{trigger\+Completed = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+stop load (useless in async mode) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & \\
+\hline
+{\em trigger\+Completed} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader_aa2ca71516688e56ebc0378e9d6af88d7}{Wing.\+Tools.\+Ease\+Loader.\+ILoader}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a83e400f346ea91a48fa99b4d2944d934}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a83e400f346ea91a48fa99b4d2944d934}} 
+\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}!Load@{Load}}
+\index{Load@{Load}!Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+\doxysubsubsection{\texorpdfstring{Load()}{Load()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+Load (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}}}]{context }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader_a1de24f698c4c3e543a734fa85c61f864}{Wing.\+Tools.\+Ease\+Loader.\+ILoader}}.
+
+
+
+References \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a007e2d2449ded71841e0428fb81c4926}{Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+On\+Load()}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a6abb7185bdb39baf1e8d14b331313700}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a6abb7185bdb39baf1e8d14b331313700}} 
+\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}!LoadSync@{LoadSync}}
+\index{LoadSync@{LoadSync}!Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+\doxysubsubsection{\texorpdfstring{LoadSync()}{LoadSync()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}} Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+Load\+Sync (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}}}]{context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader_a8864eb91e64037cf6c881726dffc391a}{Wing.\+Tools.\+Ease\+Loader.\+ILoader}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_editor_loader_a28d812953c889ad68cb079c859122177}{Wing.\+Tools.\+Ease\+Loader.\+Editor\+Loader}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_loader_aa442b48234edef0f87e74536fb68f729}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Loader}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_runtime_loader_ac4d8ca6b82dce31ee8bd96c436036e71}{Wing.\+Tools.\+Ease\+Loader.\+Runtime\+Loader}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a007e2d2449ded71841e0428fb81c4926}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a007e2d2449ded71841e0428fb81c4926}} 
+\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}!OnLoad@{OnLoad}}
+\index{OnLoad@{OnLoad}!Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+\doxysubsubsection{\texorpdfstring{OnLoad()}{OnLoad()}}
+{\footnotesize\ttfamily virtual void Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+On\+Load (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_load_context}{Load\+Context}}}]{context }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_editor_loader_a9c68c91240f66317a7f1d957ba028519}{Wing.\+Tools.\+Ease\+Loader.\+Editor\+Loader}}, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_loader_ae28f498e017c71af8cc3561696e0c7e1}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Loader}}, and \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_runtime_loader_a229a1f92bee769a15a7a2b834a0ba5aa}{Wing.\+Tools.\+Ease\+Loader.\+Runtime\+Loader}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a250dfcc610f04aee112119ffb4887b6b}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a250dfcc610f04aee112119ffb4887b6b}} 
+\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}!onCompleted@{onCompleted}}
+\index{onCompleted@{onCompleted}!Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+\doxysubsubsection{\texorpdfstring{onCompleted}{onCompleted}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_a2aef09431a1d860fb740f98eb19b50e1}{Load\+Completed\+Event\+Handler}} Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+on\+Completed\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implements \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader_ad4b73bac1aa18a8198fa42232531184c}{Wing.\+Tools.\+Ease\+Loader.\+ILoader}}.
+
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a40c7f6c592273cb254ee3ff5822b74ad}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_base_loader_a40c7f6c592273cb254ee3ff5822b74ad}} 
+\index{Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}!onProgress@{onProgress}}
+\index{onProgress@{onProgress}!Wing.Tools.EaseLoader.BaseLoader@{Wing.Tools.EaseLoader.BaseLoader}}
+\doxysubsubsection{\texorpdfstring{onProgress}{onProgress}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_afa4a2c9ffea0b6f6dfc5a7a7652c38b3}{Load\+Progress\+Event\+Handler}} Wing.\+Tools.\+Ease\+Loader.\+Base\+Loader.\+on\+Progress\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implements \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_loader_a51e2c7620b903933294ae3906152c5dd}{Wing.\+Tools.\+Ease\+Loader.\+ILoader}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/\+Loader/\mbox{\hyperlink{_loader_2_base_loader_8cs}{Base\+Loader.\+cs}}\item 
+Ease\+Loader/\+Scripts/\+Sync/\+Loader/\mbox{\hyperlink{_sync_2_loader_2_base_loader_8cs}{Base\+Loader.\+cs}}\end{DoxyCompactItemize}

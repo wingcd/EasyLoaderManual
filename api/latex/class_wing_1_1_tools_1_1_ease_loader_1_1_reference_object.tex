@@ -1,0 +1,68 @@
+\hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object Class Reference}
+\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}\index{Wing.Tools.EaseLoader.ReferenceObject@{Wing.Tools.EaseLoader.ReferenceObject}}
+
+
+asset data wrapper with reference count  
+
+
+Inheritance diagram for Wing.\+Tools.\+Ease\+Loader.\+Reference\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a64c46e3a731d13a17ab926750f30fb8c}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a64c46e3a731d13a17ab926750f30fb8c}} 
+{\bfseries Reference\+Object} (string \+\_\+key, object \+\_\+data=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab19df7e66da485eb62e7420eef3a4b57}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab19df7e66da485eb62e7420eef3a4b57}} 
+void {\bfseries Ref} ()
+\begin{DoxyCompactList}\small\item\em when use this data,please invoke this. this function will add refrence count. when count equal to 0,this data maybe collected. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a8742da726868b8c0a2419e632ae67810}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a8742da726868b8c0a2419e632ae67810}} 
+void {\bfseries Refresh} ()
+\begin{DoxyCompactList}\small\item\em just refresh hit time \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a18c13937827073da3c8ee5be9c48f1b1}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a18c13937827073da3c8ee5be9c48f1b1}} 
+void {\bfseries Un\+Ref} ()
+\begin{DoxyCompactList}\small\item\em when unuse this data,please invoke this. this function will minus one time from refrence count. when count equal to 0,this data maybe collected. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab83c5beaa9faa0fd3f4a34ed52f09fa9}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab83c5beaa9faa0fd3f4a34ed52f09fa9}} 
+virtual void {\bfseries Dispose} (bool unloaded\+Loaded\+Object=false)
+\begin{DoxyCompactList}\small\item\em focus to dispose this data,maybe dispose the using data. 
+\begin{DoxyParams}{Parameters}
+{\em unloaded\+Loaded\+Object} & Determines whether the current instances of objects loaded from the Asset\+Bundle will also be unloaded.\\
+\hline
+\end{DoxyParams}
+\end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ac21567594892cc82173f901ec5f49b98}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ac21567594892cc82173f901ec5f49b98}} 
+string {\bfseries key}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a2c306a4e8813ca25a66d9232192ea6e8}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a2c306a4e8813ca25a66d9232192ea6e8}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} {\bfseries parent}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ae93880d7019307ef1cdd1441ca4d5605}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ae93880d7019307ef1cdd1441ca4d5605}} 
+List$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} $>$ {\bfseries childrens}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a79f944cf835a6ebca08a63f6dc132394}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a79f944cf835a6ebca08a63f6dc132394}} 
+int {\bfseries reference\+Count}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ad5c5eed78b09d61498f8272bd90cbf73}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ad5c5eed78b09d61498f8272bd90cbf73}} 
+bool {\bfseries used}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab8466d06bfe70e96d20721bf48510ea0}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_ab8466d06bfe70e96d20721bf48510ea0}} 
+float {\bfseries hit\+Time}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a5b642774c679162ecf5079d2808444db}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object_a5b642774c679162ecf5079d2808444db}} 
+object {\bfseries data}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+asset data wrapper with reference count 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/\+Msic/Response\+Data.\+cs\end{DoxyCompactItemize}

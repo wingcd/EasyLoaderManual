@@ -1,0 +1,78 @@
+\hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+Cacher\+Manager Class Reference}
+\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager}\index{Wing.Tools.EaseLoader.CacherManager@{Wing.Tools.EaseLoader.CacherManager}}
+Inheritance diagram for Wing.\+Tools.\+Ease\+Loader.\+Cacher\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a759af5963fde3375e0393c7e81f9de4f}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a759af5963fde3375e0393c7e81f9de4f}} 
+void {\bfseries Regist} (ECache\+Type type, \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher}{ICacher}} cacher)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_acbc65ddcf175d93e4edf4f3b54adf5c9}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_acbc65ddcf175d93e4edf4f3b54adf5c9}} 
+\mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher}{ICacher}} {\bfseries Get\+Cacher} (ECache\+Type type)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_aa2e5681ff1e5cc59b45bf3565fd2f517}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_aa2e5681ff1e5cc59b45bf3565fd2f517}} 
+\mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher}{ICacher}} {\bfseries Strict\+Get} (ECache\+Type type)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_ad0ed48648cffde4af664dd449252130c}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_ad0ed48648cffde4af664dd449252130c}} 
+bool {\bfseries Is\+Cacher} (\mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_cacher}{ICacher}} cacher, ECache\+Type cacher\+Type)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_ab3fdc6dc13364a744530a1d0e70313ff}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_ab3fdc6dc13364a744530a1d0e70313ff}} 
+bool {\bfseries Has\+Key} (string key, ECache\+Type cacher\+Type=ECache\+Type.\+All)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a13da840511916c2fbc7983a8d6c45f54}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a13da840511916c2fbc7983a8d6c45f54}} 
+bool {\bfseries Is\+In\+Time} (string key, ECache\+Type cacher\+Type=ECache\+Type.\+All)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a5e1c8565608efd044bb3710ddf0be6a1}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a5e1c8565608efd044bb3710ddf0be6a1}} 
+bool {\bfseries Is\+In\+Memory\+Cache} (string key)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_adf5834fb18f37808f9ae3df8285e44af}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_adf5834fb18f37808f9ae3df8285e44af}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} {\bfseries Memory\+Cache} (string key, object data, bool overwrite=true, \mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_a2c3e2186957b1ec75fc529685557c2db}{ESource\+Type}} source\+Type=ESource\+Type.\+None, string save\+As=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a97ba7bb93cc4289e76f7d05f7fdb3082}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a97ba7bb93cc4289e76f7d05f7fdb3082}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} {\bfseries Disk\+Cache} (string key, object data, bool overwrite=true, \mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_a2c3e2186957b1ec75fc529685557c2db}{ESource\+Type}} source\+Type=ESource\+Type.\+None, string save\+As=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a3c5384de89ed49d6ffdafbbc4deb70c3}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a3c5384de89ed49d6ffdafbbc4deb70c3}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} {\bfseries Cache} (string key, object data, bool overwrite=true, ECache\+Type cacher\+Type=ECache\+Type.\+All, \mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_a2c3e2186957b1ec75fc529685557c2db}{ESource\+Type}} source\+Type=ESource\+Type.\+None, string save\+As=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_ab97b3d015f575f3d83928db452289717}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_ab97b3d015f575f3d83928db452289717}} 
+void {\bfseries Cache} (string key, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} data, bool overwrite=true, ECache\+Type cacher\+Type=ECache\+Type.\+All, \mbox{\hyperlink{namespace_wing_1_1_tools_1_1_ease_loader_a2c3e2186957b1ec75fc529685557c2db}{ESource\+Type}} source\+Type=ESource\+Type.\+None, Type target\+Type=null, string save\+As=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a02361403383bbcaa4f8c144d2ac92518}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a02361403383bbcaa4f8c144d2ac92518}} 
+void {\bfseries Get\+Data} (string key, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}} $>$ done, ECache\+Type cacher\+Type=ECache\+Type.\+All, Type target\+Type=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a03bc2af83e8d975d123d13d4245b7209}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a03bc2af83e8d975d123d13d4245b7209}} 
+void {\bfseries Remove} (string key, ECache\+Type cacher\+Type=ECache\+Type.\+All)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a02b0129eced6019ce83bfa78b67616d4}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a02b0129eced6019ce83bfa78b67616d4}} 
+void {\bfseries Remove\+All} (ECache\+Type cacher\+Type=ECache\+Type.\+All)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_aa7d9c6848589015ba50f29327bbdf147}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_aa7d9c6848589015ba50f29327bbdf147}} 
+void {\bfseries Collect} (bool all=false, bool check\+Cache\+Size=true, Date\+Time? before=null, ECache\+Type cacher\+Type=ECache\+Type.\+All)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a053d6ed54644ebb467ec692d3c706857}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a053d6ed54644ebb467ec692d3c706857}} 
+long {\bfseries Get\+Total\+Cache\+Size} (ECache\+Type cacher\+Type=ECache\+Type.\+Memory)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a90e2e22201c80602472b877bc7cd17bd}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a90e2e22201c80602472b877bc7cd17bd}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_response_data}{Response\+Data}} {\bfseries Get\+Data\+Sync} (string key, ECache\+Type cacher\+Type=ECache\+Type.\+All, Type target\+Type=null)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a331ee11ac4ef3849fb4b10326c10d156}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_a331ee11ac4ef3849fb4b10326c10d156}} 
+static Dictionary$<$ Type, \mbox{\hyperlink{interface_wing_1_1_tools_1_1_ease_loader_1_1_i_serializable}{ISerializable}} $>$ {\bfseries serializers}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_ab502f807b78b85baa5f47ab350794bfb}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_cacher_manager_ab502f807b78b85baa5f47ab350794bfb}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_hit_statistics}{Hit\+Statistics}} {\bfseries statistics}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/\+Cacher/Cacher\+Manager.\+cs\item 
+Ease\+Loader/\+Scripts/\+Sync/\+Cacher/Cacher\+Manager.\+cs\end{DoxyCompactItemize}

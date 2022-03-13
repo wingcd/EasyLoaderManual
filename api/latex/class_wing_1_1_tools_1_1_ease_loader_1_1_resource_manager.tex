@@ -1,0 +1,734 @@
+\hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager Class Reference}
+\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager}\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+
+
+easy load asset from Editor/\+Bundle/\+Player mode manager all assets in mapper.\+json when open USE\+\_\+\+BUNDLE  
+
+
+Inheritance diagram for Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a2f6988a674db1a57a373f430da7646c7}{Initial}} (string main\+Ab\+Name=null, Action$<$ bool $>$ done=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em initial resource manager \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_add88b4cecec1d12728d9c3b0da5abbbe}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_add88b4cecec1d12728d9c3b0da5abbbe}} 
+void {\bfseries Reset} (bool unloaded\+Loaded\+Object=false)
+\item 
+List$<$ string $>$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a8d38dccf09bca9acea3cf0b08b09ddb1}{Get\+Files\+In\+Group}} (string group\+Name)
+\begin{DoxyCompactList}\small\item\em only support in uniform file name \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a7ba5811e46fcc58376207fabbeb11c29}{Load\+Asset$<$ T $>$}} (string path, Action$<$ T $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset by full path or uniform url(when generate mapper.\+json must enable uniform url) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aaae11eda11fbe3bdb6f74e046b7c6af7}{Load\+Asset}} (string path, Type asset\+Type, Action$<$ object $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a968faa5df782b7f0886f21b1f8db0e79}{Load\+Asset}} (string group, string name, Type asset\+Type, Action$<$ object $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a875fc6482ffea13f0d276dcc056d0b19}{Load\+Asset$<$ T $>$}} (string group, string name, Action$<$ T $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset by group and name \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a3fb62dff1a287958ba3765c67fd067c5}{Load\+Asset\+R$<$ T $>$}} (string group, string name, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a390e195502ab56d28000d6c245603db7}{Load\+AssetF}} (string path, Type asset\+Type, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset from full path \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_af324355e2b80b1849fa800a704a7366f}{Contains\+Unique\+Name}} (string name)
+\begin{DoxyCompactList}\small\item\em check contain name when use unique name mode \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a1178b02b50a63fde8af3da78e55ed133}{Load\+AssetG}} (string group, string name, Type asset\+Type, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset by group \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ab67c728ba41e464b5c7c8d9eb617b40b}{Load\+Asset\+Bundle}} (string name, Action$<$ Asset\+Bundle $>$ done, bool main=false, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset bundle return asset bundle in callback (Unique Name Mode) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a10ae2df43144e7fdcc894faab0eaa7d3}{Load\+Asset\+BundleR}} (string name, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$ done, bool main=false, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load asset bundle and return \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} in call back \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ac75fc5a81f7ea560f967eb0226a91902}{Load\+Scene}} (string path, Load\+Scene\+Mode load\+Mode=Load\+Scene\+Mode.\+Single, Action$<$ float $>$ progress=null, Action$<$ bool $>$ done=null, bool unload\+Bundle=true, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load scene (Unique Name Mode) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a2d6f68bbe4b2501109a225d5dc0b8ccf}{Load\+Scene}} (string group, string scene\+Name, Load\+Scene\+Mode load\+Mode=Load\+Scene\+Mode.\+Single, Action$<$ float $>$ progress=null, Action$<$ bool $>$ done=null, bool unload\+Bundle=true, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load scene \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a70e2096db980eac2fef4aa8f0611b531}{Unload\+Scene}} (string scene\+Name)
+\begin{DoxyCompactList}\small\item\em unload scene \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aa7ab9d6c02baeae8fd99ad43e5a7fe94}{Load\+Sprite\+From\+Atlas}} (string atlas\+Path, string name, Action$<$ Sprite $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load sprite from spriteatlas (Unique Name Mode) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aed6c5abe18f39497daaf497ed6ed02e1}{Load\+Sprite\+From\+Atlas}} (string atlas\+Group, string atlas\+Name, string name, Action$<$ Sprite $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em load sprite from sprite atlas \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aebd3cac4210f3fd14e2218de61b28fcc}{Load\+Sprite\+From\+AtlasR}} (string atlas\+Group, string atlas\+Name, string name, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$ done, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em loaded sprite from sprite atlas, return by reference data \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aaee8e0b825714f2eb38875d56092a7a0}{Unload\+AssetF}} (string path, string atlas\+Sprite\+Name=null)
+\begin{DoxyCompactList}\small\item\em unload asset by full path \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_acc8be1a3367fc819389a1ee60d4ac8ec}{Unload\+Asset}} (string group, string name, string atlas\+Sprite\+Name=null)
+\begin{DoxyCompactList}\small\item\em will unload unused asset and remove it from memory cache \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aadfbe5d32bb5d6f5b33a567735bbdef9}{Unload\+Asset\+Bundle}} (string name, bool unloaded\+Loaded\+Object=false)
+\begin{DoxyCompactList}\small\item\em unload assetbundle by name \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a7ebdf4c5802b062e9ec7e19d3fc5db54}{Unload\+All\+Asset\+Bundle}} (bool unloaded\+Loaded\+Object=false)
+\begin{DoxyCompactList}\small\item\em unload all assetbunlde \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_af40f7376c02c5729bca982594c2fa449}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_af40f7376c02c5729bca982594c2fa449}} 
+void {\bfseries Unload\+All} (bool unloaded\+Loaded\+Object=false)
+\begin{DoxyCompactList}\small\item\em unload all assetbundle and clear memory cache \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a595f4d4663b288f19d8a3969ac7824cd}{ABPreload}} (string\mbox{[}$\,$\mbox{]} ab\+Names, Action$<$ float $>$ progress=null, Action$<$ Asset\+Bundle $>$ item\+Loaded=null, Action done=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em preload assetbundle and relative assetbundles \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a42e4794b49c2f8cb6f745243eae6c997}{ABPreloadR}} (string\mbox{[}$\,$\mbox{]} ab\+Names, Action$<$ float $>$ progress=null, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$ item\+Loaded=null, Action done=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em preload assetbundle and relative assetbundles return refrence data \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_acb4e8fca490f506f6005d7f8f27f2755}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_acb4e8fca490f506f6005d7f8f27f2755}} 
+void {\bfseries Preload} (Dictionary$<$ string, EResource\+Type $>$ assets, Action$<$ float $>$ progress=null, Action$<$ object $>$ item\+Loaded=null, Action done=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\item 
+void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aa10dcea1b21af2efdbf7d75799018034}{PreloadR}} (Dictionary$<$ string, EResource\+Type $>$ assets, Action$<$ float $>$ progress=null, Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$ item\+Loaded=null, Action done=null, \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}} trigger=null)
+\begin{DoxyCompactList}\small\item\em preload assets \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ac146be9bb4693099e0f04f555f299423}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ac146be9bb4693099e0f04f555f299423}} 
+bool {\bfseries Initial\+Sync} (string main\+Ab\+Name=null)
+\item 
+T \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a67dadd980618dcb9ae2a4cd59a6b6b12}{Load\+Asset\+Sync$<$ T $>$}} (string path)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a9b8dbcb7d2d13b2461e4ef86f1704e38}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a9b8dbcb7d2d13b2461e4ef86f1704e38}} 
+object {\bfseries Load\+Asset\+Sync} (string path, Type asset\+Type)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a5a8589ae4a08c26b36f8c650b58a6a2b}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a5a8589ae4a08c26b36f8c650b58a6a2b}} 
+object {\bfseries Load\+Asset\+Sync} (string group, string name, Type asset\+Type)
+\item 
+T \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ad35a7669bb78a28b63302db3959407ae}{Load\+Asset\+Sync$<$ T $>$}} (string group, string name)
+\item 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a9ef7e5ba2ba9dcd04b0164e95005ee68}{Load\+Asset\+RSync$<$ T $>$}} (string group, string name)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aa83306f6034e485fe5fd089cd5b544dd}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aa83306f6034e485fe5fd089cd5b544dd}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} {\bfseries Load\+Asset\+FSync} (string path, Type asset\+Type)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a9cf9dd90fa69096d6dbd59f90f66049f}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a9cf9dd90fa69096d6dbd59f90f66049f}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} {\bfseries Load\+Asset\+GSync} (string group, string name, Type asset\+Type)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a63e115006d9cd6812f1f1ea21b7a8b5b}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a63e115006d9cd6812f1f1ea21b7a8b5b}} 
+Asset\+Bundle {\bfseries Load\+Asset\+Bundle\+Sync} (string name, bool main=false)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a57f3108a11e1f20aad32e66679b6dea3}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a57f3108a11e1f20aad32e66679b6dea3}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} {\bfseries Load\+Asset\+Bundle\+RSync} (string name, bool main=false)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aee94947b4314784e3226f9fd3b0242a3}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aee94947b4314784e3226f9fd3b0242a3}} 
+Sprite {\bfseries Load\+Sprite\+From\+Atlas\+Sync} (string atlas\+Path, string name)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aff57cd8ce16de5fd15319f41e4c4e44c}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aff57cd8ce16de5fd15319f41e4c4e44c}} 
+Sprite {\bfseries Load\+Sprite\+From\+Atlas\+Sync} (string atlas\+Group, string atlas\+Name, string name)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a5a78658ccfd667ab4345c3b34c0fda31}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a5a78658ccfd667ab4345c3b34c0fda31}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} {\bfseries Load\+Sprite\+From\+Atlas\+RSync} (string atlas\+Group, string atlas\+Name, string name)
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a05451f2a248cab02150ba447412eb5f3}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a05451f2a248cab02150ba447412eb5f3}} 
+\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} {\bfseries Load\+Sprite\+From\+Atlas\+SyncR} (string atlas\+Group, string atlas\+Name, string name)
+\item 
+bool \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a135613732c234a7f8709d2cb20aeff0f}{Load\+Scene\+Sync}} (string scene\+Path, Load\+Scene\+Mode load\+Mode=Load\+Scene\+Mode.\+Single, bool unload\+Bundle=true)
+\begin{DoxyCompactList}\small\item\em load scene in sync mode \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ab982885386c06b795f49a968f3cdf6ba}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ab982885386c06b795f49a968f3cdf6ba}} 
+bool {\bfseries Load\+Scene\+Sync} (string group, string scene\+Name, Load\+Scene\+Mode load\+Mode=Load\+Scene\+Mode.\+Single, bool unload\+Bundle=true)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a83c677a55b5c20d9447ac1293c94bb7e}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a83c677a55b5c20d9447ac1293c94bb7e}} 
+string {\bfseries assetbundle\+Ext} = \char`\"{}.ab\char`\"{}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a0a183ea1e5bdce63553ffc414ed251d9}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a0a183ea1e5bdce63553ffc414ed251d9}} 
+string {\bfseries ab\+File\+Relative\+Dir} = \char`\"{}assetbundles/\char`\"{}
+\begin{DoxyCompactList}\small\item\em in editor mode\+: relative on streamingasset dir in player mode\+: relative on persistent\+Data dir in player fallback mode\+: relative on streamingasset dir \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a459cdd9498ace0f6a628e4ae1a877306}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a459cdd9498ace0f6a628e4ae1a877306}} 
+string {\bfseries asset\+Base\+Url} = \char`\"{}\char`\"{}
+\begin{DoxyCompactList}\small\item\em when use bundle,define where the ab file load from\+: streaming\+Asset\+Path/persistent\+Data\+Path/web url(start with \href{http://}{\texttt{ http\+://}} or \href{https://}{\texttt{ https\+://}} or relative url in webgl player) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ae37746b2c9ff999aaeca840e037a2ed5}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ae37746b2c9ff999aaeca840e037a2ed5}} 
+ABDecrypt\+Handler {\bfseries ab\+Decrypt\+Handler} = Utils.\+Default\+ABDecrypt
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+easy load asset from Editor/\+Bundle/\+Player mode manager all assets in mapper.\+json when open USE\+\_\+\+BUNDLE 
+
+if you want use async mode in webgl, please preload resources first 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a595f4d4663b288f19d8a3969ac7824cd}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a595f4d4663b288f19d8a3969ac7824cd}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!ABPreload@{ABPreload}}
+\index{ABPreload@{ABPreload}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{ABPreload()}{ABPreload()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+ABPreload (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{ab\+Names,  }\item[{Action$<$ float $>$}]{progress = {\ttfamily null},  }\item[{Action$<$ Asset\+Bundle $>$}]{item\+Loaded = {\ttfamily null},  }\item[{Action}]{done = {\ttfamily null},  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+preload assetbundle and relative assetbundles 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ab\+Names} & assetbundle names\\
+\hline
+{\em progress} & progress invoke\\
+\hline
+{\em item\+Loaded} & on single assetbundle loaded\\
+\hline
+{\em done} & all assetbundles loaded\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a42e4794b49c2f8cb6f745243eae6c997}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a42e4794b49c2f8cb6f745243eae6c997}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!ABPreloadR@{ABPreloadR}}
+\index{ABPreloadR@{ABPreloadR}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{ABPreloadR()}{ABPreloadR()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+ABPreloadR (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{ab\+Names,  }\item[{Action$<$ float $>$}]{progress = {\ttfamily null},  }\item[{Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$}]{item\+Loaded = {\ttfamily null},  }\item[{Action}]{done = {\ttfamily null},  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+preload assetbundle and relative assetbundles return refrence data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ab\+Names} & asset bundle names\\
+\hline
+{\em progress} & progress invoke\\
+\hline
+{\em item\+Loaded} & on single assetbundle loaded\\
+\hline
+{\em done} & all assetbundles loaded\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_af324355e2b80b1849fa800a704a7366f}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_af324355e2b80b1849fa800a704a7366f}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!ContainsUniqueName@{ContainsUniqueName}}
+\index{ContainsUniqueName@{ContainsUniqueName}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{ContainsUniqueName()}{ContainsUniqueName()}}
+{\footnotesize\ttfamily bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Contains\+Unique\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+check contain name when use unique name mode 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & asset name\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+check result
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a8d38dccf09bca9acea3cf0b08b09ddb1}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a8d38dccf09bca9acea3cf0b08b09ddb1}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!GetFilesInGroup@{GetFilesInGroup}}
+\index{GetFilesInGroup@{GetFilesInGroup}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{GetFilesInGroup()}{GetFilesInGroup()}}
+{\footnotesize\ttfamily List$<$ string $>$ Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Get\+Files\+In\+Group (\begin{DoxyParamCaption}\item[{string}]{group\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+only support in uniform file name 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a2f6988a674db1a57a373f430da7646c7}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a2f6988a674db1a57a373f430da7646c7}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!Initial@{Initial}}
+\index{Initial@{Initial}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{Initial()}{Initial()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Initial (\begin{DoxyParamCaption}\item[{string}]{main\+Ab\+Name = {\ttfamily null},  }\item[{Action$<$ bool $>$}]{done = {\ttfamily null},  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+initial resource manager 
+
+
+\begin{DoxyParams}{Parameters}
+{\em main\+Ab\+Name} & main asset bundle name\\
+\hline
+{\em done} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a968faa5df782b7f0886f21b1f8db0e79}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a968faa5df782b7f0886f21b1f8db0e79}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAsset@{LoadAsset}}
+\index{LoadAsset@{LoadAsset}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAsset()}{LoadAsset()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset (\begin{DoxyParamCaption}\item[{string}]{group,  }\item[{string}]{name,  }\item[{Type}]{asset\+Type,  }\item[{Action$<$ object $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & package name\\
+\hline
+{\em name} & asset path or name\\
+\hline
+{\em asset\+Type} & asset type\\
+\hline
+{\em done} & done call back\\
+\hline
+{\em trigger} & loader trigger, can stop by trigger\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aaae11eda11fbe3bdb6f74e046b7c6af7}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aaae11eda11fbe3bdb6f74e046b7c6af7}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAsset@{LoadAsset}}
+\index{LoadAsset@{LoadAsset}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAsset()}{LoadAsset()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset (\begin{DoxyParamCaption}\item[{string}]{path,  }\item[{Type}]{asset\+Type,  }\item[{Action$<$ object $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & asset path/name\\
+\hline
+{\em asset\+Type} & asset type\\
+\hline
+{\em done} & \\
+\hline
+{\em trigger} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a875fc6482ffea13f0d276dcc056d0b19}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a875fc6482ffea13f0d276dcc056d0b19}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAsset$<$ T $>$@{LoadAsset$<$ T $>$}}
+\index{LoadAsset$<$ T $>$@{LoadAsset$<$ T $>$}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAsset$<$ T $>$()}{LoadAsset< T >()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aaae11eda11fbe3bdb6f74e046b7c6af7}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset}}$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{group,  }\item[{string}]{name,  }\item[{Action$<$ T $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset by group and name 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & package name\\
+\hline
+{\em name} & \\
+\hline
+{\em done} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & asset type\\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Unity\+Engine.\+Object}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a7ba5811e46fcc58376207fabbeb11c29}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a7ba5811e46fcc58376207fabbeb11c29}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAsset$<$ T $>$@{LoadAsset$<$ T $>$}}
+\index{LoadAsset$<$ T $>$@{LoadAsset$<$ T $>$}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAsset$<$ T $>$()}{LoadAsset< T >()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aaae11eda11fbe3bdb6f74e046b7c6af7}{Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset}}$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{path,  }\item[{Action$<$ T $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset by full path or uniform url(when generate mapper.\+json must enable uniform url) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & \\
+\hline
+{\em done} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Unity\+Engine.\+Object}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ab67c728ba41e464b5c7c8d9eb617b40b}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ab67c728ba41e464b5c7c8d9eb617b40b}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAssetBundle@{LoadAssetBundle}}
+\index{LoadAssetBundle@{LoadAssetBundle}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAssetBundle()}{LoadAssetBundle()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset\+Bundle (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{Action$<$ Asset\+Bundle $>$}]{done,  }\item[{bool}]{main = {\ttfamily false},  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset bundle return asset bundle in callback (Unique Name Mode) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & asset path/name\\
+\hline
+{\em done} & load call back\\
+\hline
+{\em main} & is main asset bundle\\
+\hline
+{\em trigger} & loader trigger\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a10ae2df43144e7fdcc894faab0eaa7d3}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a10ae2df43144e7fdcc894faab0eaa7d3}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAssetBundleR@{LoadAssetBundleR}}
+\index{LoadAssetBundleR@{LoadAssetBundleR}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAssetBundleR()}{LoadAssetBundleR()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset\+BundleR (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$}]{done,  }\item[{bool}]{main = {\ttfamily false},  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset bundle and return \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} in call back 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & asset path/name\\
+\hline
+{\em done} & load call back\\
+\hline
+{\em main} & is main asset bundle\\
+\hline
+{\em trigger} & loader trigger\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a390e195502ab56d28000d6c245603db7}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a390e195502ab56d28000d6c245603db7}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAssetF@{LoadAssetF}}
+\index{LoadAssetF@{LoadAssetF}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAssetF()}{LoadAssetF()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+AssetF (\begin{DoxyParamCaption}\item[{string}]{path,  }\item[{Type}]{asset\+Type,  }\item[{Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset from full path 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & full path in editor\\
+\hline
+{\em asset\+Type} & asset type\\
+\hline
+{\em done} & load call back\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a1178b02b50a63fde8af3da78e55ed133}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a1178b02b50a63fde8af3da78e55ed133}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAssetG@{LoadAssetG}}
+\index{LoadAssetG@{LoadAssetG}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAssetG()}{LoadAssetG()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+AssetG (\begin{DoxyParamCaption}\item[{string}]{group,  }\item[{string}]{name,  }\item[{Type}]{asset\+Type,  }\item[{Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset by group 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & \\
+\hline
+{\em name} & \\
+\hline
+{\em asset\+Type} & \\
+\hline
+{\em done} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a3fb62dff1a287958ba3765c67fd067c5}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a3fb62dff1a287958ba3765c67fd067c5}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAssetR$<$ T $>$@{LoadAssetR$<$ T $>$}}
+\index{LoadAssetR$<$ T $>$@{LoadAssetR$<$ T $>$}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAssetR$<$ T $>$()}{LoadAssetR< T >()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+AssetR$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{group,  }\item[{string}]{name,  }\item[{Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load asset 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & package name\\
+\hline
+{\em name} & asset path/name\\
+\hline
+{\em done} & \\
+\hline
+{\em trigger} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Unity\+Engine.\+Object}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a9ef7e5ba2ba9dcd04b0164e95005ee68}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a9ef7e5ba2ba9dcd04b0164e95005ee68}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAssetRSync$<$ T $>$@{LoadAssetRSync$<$ T $>$}}
+\index{LoadAssetRSync$<$ T $>$@{LoadAssetRSync$<$ T $>$}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAssetRSync$<$ T $>$()}{LoadAssetRSync< T >()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_object}{Reference\+Object}} Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset\+RSync$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{group,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Unity\+Engine.\+Object}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ad35a7669bb78a28b63302db3959407ae}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ad35a7669bb78a28b63302db3959407ae}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAssetSync$<$ T $>$@{LoadAssetSync$<$ T $>$}}
+\index{LoadAssetSync$<$ T $>$@{LoadAssetSync$<$ T $>$}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAssetSync$<$ T $>$()}{LoadAssetSync< T >()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily T Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset\+Sync$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{group,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Unity\+Engine.\+Object}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a67dadd980618dcb9ae2a4cd59a6b6b12}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a67dadd980618dcb9ae2a4cd59a6b6b12}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadAssetSync$<$ T $>$@{LoadAssetSync$<$ T $>$}}
+\index{LoadAssetSync$<$ T $>$@{LoadAssetSync$<$ T $>$}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadAssetSync$<$ T $>$()}{LoadAssetSync< T >()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily T Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Asset\+Sync$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{path }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em Unity\+Engine.\+Object}]\end{description}
+\end{Desc}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a2d6f68bbe4b2501109a225d5dc0b8ccf}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a2d6f68bbe4b2501109a225d5dc0b8ccf}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadScene@{LoadScene}}
+\index{LoadScene@{LoadScene}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadScene()}{LoadScene()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Scene (\begin{DoxyParamCaption}\item[{string}]{group,  }\item[{string}]{scene\+Name,  }\item[{Load\+Scene\+Mode}]{load\+Mode = {\ttfamily LoadSceneMode.Single},  }\item[{Action$<$ float $>$}]{progress = {\ttfamily null},  }\item[{Action$<$ bool $>$}]{done = {\ttfamily null},  }\item[{bool}]{unload\+Bundle = {\ttfamily true},  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load scene 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & package name\\
+\hline
+{\em scene\+Name} & scene path/name\\
+\hline
+{\em load\+Mode} & load mode\\
+\hline
+{\em progress} & load progress\\
+\hline
+{\em done} & \\
+\hline
+{\em unload\+Bundle} & need unload asset bundle when scene loaded\\
+\hline
+{\em trigger} & loader trigger\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ac75fc5a81f7ea560f967eb0226a91902}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_ac75fc5a81f7ea560f967eb0226a91902}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadScene@{LoadScene}}
+\index{LoadScene@{LoadScene}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadScene()}{LoadScene()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Scene (\begin{DoxyParamCaption}\item[{string}]{path,  }\item[{Load\+Scene\+Mode}]{load\+Mode = {\ttfamily LoadSceneMode.Single},  }\item[{Action$<$ float $>$}]{progress = {\ttfamily null},  }\item[{Action$<$ bool $>$}]{done = {\ttfamily null},  }\item[{bool}]{unload\+Bundle = {\ttfamily true},  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load scene (Unique Name Mode) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & scene path/name\\
+\hline
+{\em load\+Mode} & load mode\\
+\hline
+{\em progress} & load progress\\
+\hline
+{\em done} & \\
+\hline
+{\em unload\+Bundle} & need unload asset bundle when scene loaded\\
+\hline
+{\em trigger} & loader trigger\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a135613732c234a7f8709d2cb20aeff0f}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a135613732c234a7f8709d2cb20aeff0f}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadSceneSync@{LoadSceneSync}}
+\index{LoadSceneSync@{LoadSceneSync}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadSceneSync()}{LoadSceneSync()}}
+{\footnotesize\ttfamily bool Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Scene\+Sync (\begin{DoxyParamCaption}\item[{string}]{scene\+Path,  }\item[{Load\+Scene\+Mode}]{load\+Mode = {\ttfamily LoadSceneMode.Single},  }\item[{bool}]{unload\+Bundle = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load scene in sync mode 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene\+Path} & path of scene asset\\
+\hline
+{\em load\+Mode} & scene load mode\\
+\hline
+{\em unload\+Bundle} & if unload asset bundle when scene loaded\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aed6c5abe18f39497daaf497ed6ed02e1}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aed6c5abe18f39497daaf497ed6ed02e1}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadSpriteFromAtlas@{LoadSpriteFromAtlas}}
+\index{LoadSpriteFromAtlas@{LoadSpriteFromAtlas}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadSpriteFromAtlas()}{LoadSpriteFromAtlas()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Sprite\+From\+Atlas (\begin{DoxyParamCaption}\item[{string}]{atlas\+Group,  }\item[{string}]{atlas\+Name,  }\item[{string}]{name,  }\item[{Action$<$ Sprite $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load sprite from sprite atlas 
+
+
+\begin{DoxyParams}{Parameters}
+{\em atlas\+Group} & package name\\
+\hline
+{\em atlas\+Name} & atlas path/name\\
+\hline
+{\em name} & sprite name\\
+\hline
+{\em done} & done call back\\
+\hline
+{\em trigger} & loader trigger\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aa7ab9d6c02baeae8fd99ad43e5a7fe94}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aa7ab9d6c02baeae8fd99ad43e5a7fe94}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadSpriteFromAtlas@{LoadSpriteFromAtlas}}
+\index{LoadSpriteFromAtlas@{LoadSpriteFromAtlas}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadSpriteFromAtlas()}{LoadSpriteFromAtlas()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Sprite\+From\+Atlas (\begin{DoxyParamCaption}\item[{string}]{atlas\+Path,  }\item[{string}]{name,  }\item[{Action$<$ Sprite $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+load sprite from spriteatlas (Unique Name Mode) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em atlas\+Path} & atlas path/name\\
+\hline
+{\em name} & sprite name\\
+\hline
+{\em done} & done call back\\
+\hline
+{\em trigger} & loader trigger\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aebd3cac4210f3fd14e2218de61b28fcc}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aebd3cac4210f3fd14e2218de61b28fcc}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!LoadSpriteFromAtlasR@{LoadSpriteFromAtlasR}}
+\index{LoadSpriteFromAtlasR@{LoadSpriteFromAtlasR}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{LoadSpriteFromAtlasR()}{LoadSpriteFromAtlasR()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Load\+Sprite\+From\+AtlasR (\begin{DoxyParamCaption}\item[{string}]{atlas\+Group,  }\item[{string}]{atlas\+Name,  }\item[{string}]{name,  }\item[{Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$}]{done,  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+loaded sprite from sprite atlas, return by reference data 
+
+
+\begin{DoxyParams}{Parameters}
+{\em atlas\+Group} & where atlas contain in package(asset bundle)\\
+\hline
+{\em atlas\+Name} & atlas name in asset manager\\
+\hline
+{\em name} & sprite name\\
+\hline
+{\em done} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aa10dcea1b21af2efdbf7d75799018034}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aa10dcea1b21af2efdbf7d75799018034}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!PreloadR@{PreloadR}}
+\index{PreloadR@{PreloadR}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{PreloadR()}{PreloadR()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+PreloadR (\begin{DoxyParamCaption}\item[{Dictionary$<$ string, EResource\+Type $>$}]{assets,  }\item[{Action$<$ float $>$}]{progress = {\ttfamily null},  }\item[{Action$<$ \mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_reference_data}{Reference\+Data}} $>$}]{item\+Loaded = {\ttfamily null},  }\item[{Action}]{done = {\ttfamily null},  }\item[{\mbox{\hyperlink{class_wing_1_1_tools_1_1_ease_loader_1_1_loader_trigger}{Loader\+Trigger}}}]{trigger = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+preload assets 
+
+
+\begin{DoxyParams}{Parameters}
+{\em assets} & assets map\\
+\hline
+{\em progress} & progress callback\\
+\hline
+{\em item\+Loaded} & item loaded callback\\
+\hline
+{\em done} & all down call back\\
+\hline
+{\em trigger} & load trigger\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a7ebdf4c5802b062e9ec7e19d3fc5db54}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a7ebdf4c5802b062e9ec7e19d3fc5db54}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!UnloadAllAssetBundle@{UnloadAllAssetBundle}}
+\index{UnloadAllAssetBundle@{UnloadAllAssetBundle}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{UnloadAllAssetBundle()}{UnloadAllAssetBundle()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Unload\+All\+Asset\+Bundle (\begin{DoxyParamCaption}\item[{bool}]{unloaded\+Loaded\+Object = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+unload all assetbunlde 
+
+
+\begin{DoxyParams}{Parameters}
+{\em unloaded\+Loaded\+Object} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_acc8be1a3367fc819389a1ee60d4ac8ec}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_acc8be1a3367fc819389a1ee60d4ac8ec}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!UnloadAsset@{UnloadAsset}}
+\index{UnloadAsset@{UnloadAsset}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{UnloadAsset()}{UnloadAsset()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Unload\+Asset (\begin{DoxyParamCaption}\item[{string}]{group,  }\item[{string}]{name,  }\item[{string}]{atlas\+Sprite\+Name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+will unload unused asset and remove it from memory cache 
+
+
+\begin{DoxyParams}{Parameters}
+{\em group} & package name\\
+\hline
+{\em name} & asset name\\
+\hline
+{\em atlas\+Sprite\+Name} & sprite name\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aadfbe5d32bb5d6f5b33a567735bbdef9}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aadfbe5d32bb5d6f5b33a567735bbdef9}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!UnloadAssetBundle@{UnloadAssetBundle}}
+\index{UnloadAssetBundle@{UnloadAssetBundle}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{UnloadAssetBundle()}{UnloadAssetBundle()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Unload\+Asset\+Bundle (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{bool}]{unloaded\+Loaded\+Object = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+unload assetbundle by name 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em unloaded\+Loaded\+Object} & if true, will unload asset loaded\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aaee8e0b825714f2eb38875d56092a7a0}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_aaee8e0b825714f2eb38875d56092a7a0}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!UnloadAssetF@{UnloadAssetF}}
+\index{UnloadAssetF@{UnloadAssetF}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{UnloadAssetF()}{UnloadAssetF()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Unload\+AssetF (\begin{DoxyParamCaption}\item[{string}]{path,  }\item[{string}]{atlas\+Sprite\+Name = {\ttfamily null} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+unload asset by full path 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & full path\\
+\hline
+{\em atlas\+Sprite\+Name} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a70e2096db980eac2fef4aa8f0611b531}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_resource_manager_a70e2096db980eac2fef4aa8f0611b531}} 
+\index{Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}!UnloadScene@{UnloadScene}}
+\index{UnloadScene@{UnloadScene}!Wing.Tools.EaseLoader.ResourceManager@{Wing.Tools.EaseLoader.ResourceManager}}
+\doxysubsubsection{\texorpdfstring{UnloadScene()}{UnloadScene()}}
+{\footnotesize\ttfamily void Wing.\+Tools.\+Ease\+Loader.\+Resource\+Manager.\+Unload\+Scene (\begin{DoxyParamCaption}\item[{string}]{scene\+Name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+unload scene 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scene\+Name} & scene name\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/Resource\+Manager.\+cs\item 
+Ease\+Loader/\+Scripts/\+Sync/Resource\+Manager.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,46 @@
+\hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings}{}\doxysection{Wing.\+Tools.\+Ease\+Loader.\+Default\+Settings Class Reference}
+\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings}\index{Wing.Tools.EaseLoader.DefaultSettings@{Wing.Tools.EaseLoader.DefaultSettings}}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a64ee631a2071d7558c612fd389a7136a}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a64ee631a2071d7558c612fd389a7136a}} 
+static bool {\bfseries show\+Debug\+Info} = false
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a13e1dae49a3c20350867ba1f19acef80}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a13e1dae49a3c20350867ba1f19acef80}} 
+static bool {\bfseries enable\+Auto\+Collect} = false
+\begin{DoxyCompactList}\small\item\em auto collect caches, must use invoke refrence counter when disable this, you must unload all asset by yourself \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a507eb67615ea40a07912d61e36a92f2f}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a507eb67615ea40a07912d61e36a92f2f}} 
+static Encoding {\bfseries default\+Encoding} = Encoding.\+UTF8
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_aec44f5e61ff75fd13dc0dcb3ee61374e}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_aec44f5e61ff75fd13dc0dcb3ee61374e}} 
+static float {\bfseries memory\+Auto\+GCTime} = 10
+\begin{DoxyCompactList}\small\item\em in seconds，-\/1(lower than 0) means not auto gc,0 means gc per frame \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_ac7c6b9b801878d1d93706a731f051a94}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_ac7c6b9b801878d1d93706a731f051a94}} 
+static long {\bfseries max\+Memory\+Cache\+Size} = 1024 $\ast$ 1024 $\ast$ 15
+\begin{DoxyCompactList}\small\item\em bytes size in memory,shoud stagger the disk gc time，-\/1(lower than 0) means size not limit \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a11491aab08c2729f4a058d13f1deca5d}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a11491aab08c2729f4a058d13f1deca5d}} 
+static float {\bfseries disk\+Auto\+GCTime} = 59 $\ast$ 10f
+\begin{DoxyCompactList}\small\item\em in seconds,shoud stagger the memory gc time，-\/1(lower than 0) means not auto gc,0 means gc per frame \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a49f97e798e4c437f016fa3f8ff769bde}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a49f97e798e4c437f016fa3f8ff769bde}} 
+static long {\bfseries max\+Disk\+Cache\+Size} = 1024 $\ast$ 1024 $\ast$ 50
+\begin{DoxyCompactList}\small\item\em bytes size，-\/1(lower than 0) means size not limit \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_ab46b337482500314916d6f146d27ea76}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_ab46b337482500314916d6f146d27ea76}} 
+static string {\bfseries disk\+Cache\+Relative\+Dir} = \char`\"{}caches\char`\"{}
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a048850ef398b148572713c5bf81f1ebf}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a048850ef398b148572713c5bf81f1ebf}} 
+static int {\bfseries default\+Timeout} = 10
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_aff90fb4ec40db661971792b363d7e4c4}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_aff90fb4ec40db661971792b363d7e4c4}} 
+static int {\bfseries default\+Retry} = 0
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a661da605db530ab95f2f54d5dacb79f3}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_a661da605db530ab95f2f54d5dacb79f3}} 
+static int {\bfseries default\+Disk\+Expire\+Day} = 7
+\item 
+\mbox{\Hypertarget{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_afea70cabfd5dd06e8cc34dd3588a265d}\label{class_wing_1_1_tools_1_1_ease_loader_1_1_default_settings_afea70cabfd5dd06e8cc34dd3588a265d}} 
+static Certificate\+Handler {\bfseries default\+Certificate\+Handler}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Ease\+Loader/\+Scripts/\+Msic/Default\+Settings.\+cs\end{DoxyCompactItemize}

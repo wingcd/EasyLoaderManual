@@ -1,6 +1,20 @@
 ### **Question and Answer** 
 ***
 
+#### can not find assets
+***
+1. check request paramaters, when you not use unique name mode, you need request with group/package name or you not has extension;   
+   Anyway just request with suggestion;
+2. maybe you need create mapper again;
+3. when USE_BUNDLE mode, maybe you need build asset bundle again;
+4. when USE_BUNDLE mode, check if unity asset bundle support the extension; 
+
+#### same name when use unique name
+1. add extension for name
+2. add prefix/suffix for package files
+3. set alias for files
+4. rename files
+
 #### how use assets Refrece count  
 ***
 1. set DefaultSettings.enableAutoCollect = true

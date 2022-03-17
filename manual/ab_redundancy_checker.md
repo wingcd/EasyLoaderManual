@@ -4,7 +4,7 @@ this tool is for checking redundancy assets in assetbundles
 
 #### How To Open
 ***
-* in menu bar Tools/AB Redundancy Checker
+* in menu bar Tools/EasyLoader/AB Redundancy Checker
 * in Asset Manager Window's tools/AB Redundancy Checker
 
 #### Properties

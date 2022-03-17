@@ -29,6 +29,8 @@ AssetBundle/SpriteAtlas will auto increase refrence count when you call sub asse
 ***
 Invoke build method in your Build Pipleline
 ``` csharp
+// add USE_BUNDLE define
+BuildTools.EnableUseBundle();
 // for package ios assetbundle
 BuildHelper.BuildAssetBundle(BuildTarget.iOS, "Assets/[Editor]/**/{your asset project name}.asset");
 // for build ios hotfix file

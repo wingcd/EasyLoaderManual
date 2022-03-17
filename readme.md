@@ -1,5 +1,6 @@
 ## **EasyLoader**
 ***
+### [Manual](https://wingcd.github.io/EasyLoaderManual/)
 
  This is a out-of-the-box asset toolset;
 * you can use this for load asset from anywhere, like resources/editor/streaming/persistent data path or web url;
@@ -53,10 +54,11 @@ var sprite = await RM.LoadSpriteFromAtlasAsync<Sprite>("icons.spriteatlas", "ico
 ### **Build Application**
 ***
 * Add USE_BUNDLE macro in "Player Settings/Scripting Define Symbols"  
-![Macro](Images/macro.jpg)
+![Macro](Images/macro.jpg)  
+or use Tools/EasyLoader/EnableUseBundle tool
 * Need write some code to copy your files from streamingAssetPath to persistentDataPath, or you can set: ResourceManager.assetFromStreamingAssetPath = true; Then will load data from streamingAssetPath. 
 * Build your application.
-* When you want async support, please add ASYNC_SUPPROT macro.
+* When you want async support, please add ASYNC_SUPPROT macro. (Tools/EasyLoader/EnableAsync)
 
 ### **Samples**
 ***

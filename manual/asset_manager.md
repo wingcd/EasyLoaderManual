@@ -2,7 +2,7 @@
 
 #### How To Open
 ***
-* in menu bar Tools/AssetManager
+* in menu bar Tools/EasyLoader/AssetManager
 * use Alt+M
 * double click asset project
 

@@ -3,7 +3,7 @@
 
 #### How To Open
 ***
-* in menu bar Tools/VersionManager
+* in menu bar Tools/EasyLoader/VersionManager
 * use Alt+M
 * double click hotfix profile
 

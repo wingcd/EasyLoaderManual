@@ -1,6 +1,12 @@
 ### **Question and Answer** 
 ***
 
+### mapper.json file missing
+use AssetManager tool CreateMapper
+
+### files.txt file missing
+use AssetManager tool BuildAssetbunlde
+
 #### can not find assets
 ***
 1. check request paramaters, when you not use unique name mode, you need request with group/package name or you not has extension;   
@@ -61,3 +67,9 @@ await ResourceManager.Instance.PreloadAsync(
     p => { progress?.Invoke(p);
 });
 ```
+
+### Build tips "The output path "Assets/StreamingAssets/assetbundles" doesn't exist"  
+just build again
+
+### Build in demo project
+set lua/lua_ass(lua_test)'s copy dir with a empty dir in project to copy lua files

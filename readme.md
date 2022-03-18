@@ -1,6 +1,7 @@
 ## **EasyLoader**
 ***
 ### [AssetStore](https://assetstore.unity.com/packages/slug/215858)
+### [Manual](https://wingcd.github.io/EasyLoaderManual)
 ### [API](./api/html/index.html)
 
  This is a out-of-the-box asset toolset;

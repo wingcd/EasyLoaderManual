@@ -1,6 +1,7 @@
 ## **EasyLoader**
 ***
-### [Manual](https://wingcd.github.io/EasyLoaderManual/)
+### [AssetStore](https://assetstore.unity.com/packages/slug/215858)
+### [API](./api/html/index.html)
 
  This is a out-of-the-box asset toolset;
 * you can use this for load asset from anywhere, like resources/editor/streaming/persistent data path or web url;

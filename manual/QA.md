@@ -73,3 +73,17 @@ just build again
 
 ### Build in demo project
 set lua/lua_ass(lua_test)'s copy dir with a empty dir in project to copy lua files
+
+
+### How to use in WebGL
+1. when you not use CDN, just put all building data in you website
+   * set RM.assetBaseUrl = Application.streamingAssetsPath
+   * build assetbundle by assetmananger
+   * build your application by unity
+   * upload a build file to your website
+2. when you use CDN mode
+   * set RM.assetBaseUrl = your cdn base url
+   * build assetbundle by assetmananger
+   * build your application by unity
+   * upload a build application files to your website
+   * upload files under streamingAssets to your CDN

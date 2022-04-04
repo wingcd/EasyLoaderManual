@@ -87,3 +87,11 @@ set lua/lua_ass(lua_test)'s copy dir with a empty dir in project to copy lua fil
    * build your application by unity
    * upload a build application files to your website
    * upload files under streamingAssets to your CDN
+
+### Manager assetbunlde your self 
+just use LoaderManager to load assetbunle,  
+`support those schema`:  
+* res: load assets by Resources path  
+* efile: load assets by editor file path  
+* file: load assets by local file path  
+* http/https: load asset by remote url  

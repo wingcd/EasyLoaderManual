@@ -76,6 +76,7 @@ set lua/lua_ass(lua_test)'s copy dir with a empty dir in project to copy lua fil
 
 
 ### How to use in WebGL
+Importants: Assetbundle build target platform must be **WebGL**
 1. when you not use CDN, just put all building data in you website
    * set RM.assetBaseUrl = Application.streamingAssetsPath
    * build assetbundle by assetmananger
